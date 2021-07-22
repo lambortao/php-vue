@@ -1,0 +1,31 @@
+// 设备声明
+$iphone5: 320px, 568px, 2;
+$iphone5s: 320px, 568px, 2;
+
+$iphone6: 375px, 667px, 2;
+$iphone6plus: 414px, 736px, 3;
+
+$iphone6s: 375px, 667px, 2;
+$iphone6splus: 414px, 736px, 3;
+
+$iphone7: 375px, 667px, 2;
+$iphone7plus: 414px, 736px, 3;
+
+$iphone8: 375px, 667px, 2;
+$iphone8plus: 414px, 736px, 3;
+$iphonex: 375px, 812px, 3;
+
+$iphonexr: 414px, 896px, 2;
+$iphonexs: 375px, 812px, 3;
+$iphonexsmax: 414px, 896px, 3;
+
+$iphone11: 375px, 812px, 3;
+$iphone11pro: 375px, 812px, 3;
+$iphone11max: 414px, 896px, 3;
+
+// 生成基础查询的函数
+@mixin device($width, $height, $pixel) {
+  @media only screen and (device-width: $width) and (device-height: $height) and (-webkit-min-device-pixel-ratio: $pixel){
+    @content;
+  }
+}

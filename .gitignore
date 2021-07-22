@@ -1,0 +1,3 @@
+#忽略Runtime文件夹下的文件
+/app/node_modules/*
+node_modules

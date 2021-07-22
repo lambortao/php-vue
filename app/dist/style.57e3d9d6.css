@@ -1,0 +1,1 @@
+.backtop,.unvisible{opacity:0;pointer-events:none}.visible{opacity:1;pointer-events:all}.backtop{position:fixed;bottom:100px;right:100px;width:40px;height:40px;background-size:100%;background-repeat:no-repeat;-webkit-transition:all .3s ease;transition:all .3s ease}.backtop:hover{cursor:pointer}
